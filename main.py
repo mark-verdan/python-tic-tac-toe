@@ -71,8 +71,7 @@ while True:
      player_move("X")
      if win_condi("X"):
          break
-     if draw():  
-         break  
+
      player_move("O")
      if win_condi("O"):
          break
